@@ -1,0 +1,3 @@
+gymnasium
+pytorch-lightning 
+-e .
