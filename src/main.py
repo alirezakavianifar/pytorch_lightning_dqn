@@ -9,7 +9,6 @@ from collections import deque, namedtuple
 
 from torch import Tensor
 from torch.utils.data import DataLoader
-from torch.utils.data.dataset import IterableDataset
 from torch.optim import AdamW
 
 from pytorch_lightning import LightningDataModule, Trainer
