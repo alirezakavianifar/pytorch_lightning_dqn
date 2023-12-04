@@ -1,4 +1,6 @@
 pandas
 gymnasium
 pytorch-lightning 
+scikit-learn
 -e .
+

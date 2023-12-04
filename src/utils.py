@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
 
 
 def utility(energy_coef, packet_coef, latency_coef, energy_consumption, packet_loss, latency):
@@ -15,6 +16,7 @@ def return_next_item(lst, normalize=True, normalize_cols=['energyconsumption', '
         if normalize:
             scaler = MinMaxScaler()
             for item in normalize_cols:
-                df[item] = scale_data(df[item])
+                ...
+                # df[item] = scale_data(df[item])
         yield df
 

@@ -4,7 +4,7 @@ import gymnasium as gym
 import numpy as np
 from gymnasium import spaces
 
-from src.utility.utils import utility, return_next_item
+from utils import utility, return_next_item
 
 class DeltaIotEnv(gym.Env):
     """Custom Environment that follows gym interface."""
